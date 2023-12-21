@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo</title>
+    <link rel="stylesheet" href="chat.css"/>    
+</head>
+
+<body>
+    <div class="body">
+        
+        <div class="nav">
+            <div class="top">
+                <button class="btn2">
+                    <img class="icon1" src="/Icons/message-circle-dots-svgrepo-com.svg" alt=""/>
+                </button>
+            </div>
+
+            <div class="bottom">
+                <button class="btn2">
+                    <img class="icon2" src="/Icons/setting-5-svgrepo-com.svg" alt="" />
+                </button>
+                <img class="user-pic" src="/images/man2.jpeg" alt=""/>
+            </div>
+        </div>
+
+        <div class="left">
+            <div class="left-nav">
+                <div class="top-left-1">
+                    <span>Chats</span>
+                    <span></span>
+                    <button id="newChat"></button>
+
+                    <div id="chat3">
+
+                        <div class="chat2">
+
+                            <button class="chat1" id="cha">
+
+                                <div class="chat-picture">
+                                    <img class="chat-pic" src="/images/profile 1.jpeg" alt="" />
+                                </div>
+        
+                                <div class="chat-text">
+                                    <span class="name" id="name">Jay</span>
+                                    <span class="msg" id="msg">My AI</span>
+                                </div>
+        
+                                <div id="msg-no" class="msg-no">1</div>
+
+                            </button>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="top-left">
+                    <div class="searchdiv">
+                        <input type="text" name="" id="searchbox" placeholder="Search Chat" />
+                        <button id="search">
+                            <img class="icon" src="/Icons/search icon.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chats">
+                <div class="chat-box">
+                    <button class="chat" id="chat1">
+                        <div class="chat-picture">
+                            <img class="chat-pic" src="/images/profile 1.jpeg" alt="" />
+                        </div>
+
+                        <div class="chat-text">
+                            <span class="name" id="name">Jay</span>
+                            <span class="msg" id="msg">My AI</span>
+                        </div>
+
+                        <div id="msg-no" class="msg-no">1</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="right-nav">
+                <div class="right-1">
+                    <button id="return"></button>
+                    <img class="chat-pic-1" src="/images/profile 1.jpeg" alt="" />
+                    <span>Name</span>
+                </div>
+
+                <div class="right-2"></div>
+            </div>
+
+            <div id="chat-space"></div>
+
+            <div class="type">
+                <input type="text" name="" id="msg-box" placeholder="User1" />
+                <button id="send"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>

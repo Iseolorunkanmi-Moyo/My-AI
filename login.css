@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(18, 33, 48);
+    /* background-image: url(background_in_space.gif); */
+    display: flex;
+    margin: 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: roboto;
+}
+
+.name{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 60px;
+    color:white;
+    animation: bunce 4s infinite;
+}
+
+#formd{
+    display: flex;
+}
+
+#info{
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(99, 151, 219);
+    font-size: 20px;
+    display: block;
+}
+
+@keyframes bounce {
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+        color: rgb(78, 134, 190);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+ #form{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding: 20px 10px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+input{
+    outline: none;
+    padding:  10px 15px;
+    border-radius: 5px;
+    border: none;
+    width: 360px;
+    font-size: 16px;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+}
+
+#login{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(22, 60, 99);
+    color: white;
+    display: flex;
+    align-self: center;
+}
+
+#login:active{
+    opacity: 0.9;
+}
+
+#user{
+    margin-bottom: 30px;
+}
+
+#loader{
+    display: none;
+}
+
+#loader div{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+.one{
+    animation: bounce 2s infinite 0s ease-in-out;
+}
+.two{
+    animation: bounce 2s infinite 0.5s ease-in-out;
+}
+.three{
+    animation: bounce 2s infinite 1s ease-in-out;
+}
+.four{
+    animation: bounce 2s infinite 1.5s ease-in-out;
+}
+.five{
+    animation: bounce 2s infinite 2s ease-in-out;
+}
+.six{
+    animation: bounce 2s infinite 2.5s ease-in-out;
+}
